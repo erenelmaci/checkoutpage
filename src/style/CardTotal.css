@@ -3,11 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
   flex-direction: row;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.product-piece {
+.product-quantitiy {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -22,27 +23,27 @@
   height: 2rem;
   text-align: center;
 }
-.piece {
+.quantitiy {
   padding: 0.5rem 2rem 0 2rem;
 }
-.product-piece {
+.product-quantitiy {
   border: 1px solid black;
   border-radius: 0.5rem;
   width: 17rem;
 }
 .remove-button {
   width: 17rem;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
 .card-body {
-    width: 35rem;
-    height: 14rem;
+  width: 35rem;
+  height: 15rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-.remove-piece {
+.remove-quantitiy {
   height: 14rem;
   display: flex;
   justify-content: center;
@@ -57,12 +58,14 @@
 }
 .car-title {
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: start;
 }
 del {
   padding-left: 0.5rem;
 }
 img {
-  width: 15rem;
+  width: 14rem;
 }
 .total-price {
   padding-top: 3rem;
@@ -70,11 +73,11 @@ img {
 }
 .total-p-group {
   display: flex;
-  height: .8rem;
+  height: 0.8rem;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
-.product-total-p{
-    padding-top: .5rem;
+.product-total-p {
+  padding-top: 0.5rem;
 }
