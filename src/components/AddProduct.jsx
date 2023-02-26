@@ -13,6 +13,10 @@ const AddProduct = () => {
           <Form.Label>Product Price</Form.Label>
           <Form.Control type="number" placeholder="Product Price" />
         </Form.Group>
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Product Quantity</Form.Label>
+          <Form.Control max={15} type="number" placeholder="Product Price" />
+        </Form.Group>
         <Form.Label htmlFor="basic-url">Product Image URL</Form.Label>
         <InputGroup className="mb-3">
           <InputGroup.Text id="basic-addon3">
