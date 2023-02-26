@@ -1,0 +1,80 @@
+.card {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.product-piece {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.plus-minus-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+}
+.piece {
+  padding: 0.5rem 2rem 0 2rem;
+}
+.product-piece {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  width: 17rem;
+}
+.remove-button {
+  width: 17rem;
+  margin-top: 1.5rem;
+}
+.card-body {
+    width: 35rem;
+    height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.remove-piece {
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+  padding-left: 1.5rem;
+}
+.new-old-pirce {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+.car-title {
+  margin-bottom: 1rem;
+}
+del {
+  padding-left: 0.5rem;
+}
+img {
+  width: 15rem;
+}
+.total-price {
+  padding-top: 3rem;
+  width: 35rem;
+}
+.total-p-group {
+  display: flex;
+  height: .8rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.product-total-p{
+    padding-top: .5rem;
+}
