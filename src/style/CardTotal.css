@@ -37,7 +37,7 @@
 }
 .card-body {
   width: 35rem;
-  height: 15rem;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +59,7 @@
 .car-title {
   margin-bottom: 1rem;
   display: flex;
-  justify-content: start;
+  /* justify-content: start; */
 }
 del {
   padding-left: 0.5rem;
