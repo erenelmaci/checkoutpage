@@ -54,7 +54,9 @@ const ProductCard = ({
               <h4 className="old-price text-warning">
                 $<span>{Product_price}</span>
               </h4>{" "}
-              <del>1100.00</del>
+              <del>
+                {(+Product_price + (+Product_price * 35) / 100).toFixed(2)}
+              </del>
             </Card.Subtitle>
             <div className="shadow product-quantitiy">
               <Button
