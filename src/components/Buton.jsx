@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap"
 import AddProduct from "./AddProduct"
 
 const Buton = () => {
-  const [showAddProduct, setShowAddProduct] = useState(true)
+  const [showAddProduct, setShowAddProduct] = useState(false)
   const handleShowAddProduct = () => {
     setShowAddProduct(!showAddProduct)
   }

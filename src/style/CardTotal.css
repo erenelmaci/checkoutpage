@@ -59,7 +59,6 @@
 .car-title {
   margin-bottom: 1rem;
   display: flex;
-  /* justify-content: start; */
 }
 del {
   padding-left: 0.5rem;
@@ -80,4 +79,10 @@ img {
 }
 .product-total-p {
   padding-top: 0.5rem;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 25rem;
 }

@@ -20,18 +20,6 @@ const ProductCard = ({
     setproductTotal(Product_price * quantity)
   }, [quantity, Product_price])
 
-  const handleMinusClick = () => {
-    setQuantity(quantity - 1)
-    if (quantity <= 1) {
-      alert("Ürün silindi")
-      handleRemoveClick()
-    }
-  }
-  const handlePlusClick = () => {
-    quantity < 15
-      ? setQuantity(quantity + 1)
-      : alert("No more than 15 of this product can be added.")
-  }
   const handleRemoveClick = async () => {
     const BASE_URL = "https://63f757b2e8a73b486af5c406.mockapi.io/checkout"
     try {
@@ -43,8 +31,22 @@ const ProductCard = ({
       console.log(error)
     }
   }
+
+  const handleMinusClick = () => {
+    setQuantity(+quantity - 1)
+    if (quantity <= 1) {
+      alert("Ürün silindi")
+      handleRemoveClick()
+    }
+  }
+  const handlePlusClick = () => {
+    quantity < 15
+      ? setQuantity(+quantity + 1)
+      : alert("No more than 15 of this product can be added.")
+  }
+
   return (
-    <div>
+    <div className="container">
       <Card className="card">
         <Card.Body>
           <img src={Product_Image_URL} alt="img" />
